@@ -30,6 +30,7 @@ body {
     color: var(--text-primary);
     font-size: 18px;
     background-color: #F5DF4D;
+    overflow-x: hidden;
 }
 
 nav {
@@ -961,7 +962,7 @@ footer .powered-img {
     line-height: 60px;
     letter-spacing: 0em;
     text-align: left;
-    padding-top: 13%;
+    /* padding-top: 13%; */
     padding-left: 1em;
     color: #071729;
     font-family: PlusJakartaBold;
@@ -1008,7 +1009,7 @@ footer .powered-img {
 }
 
 .section-bydp {
-    padding-top: 120px;
+    /* padding-top: 120px; */
     padding-bottom: 120px;
 }
 
