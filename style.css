@@ -34,12 +34,12 @@ body {
 }
 
 nav {
-    background-color: #071729 !important;
+    background: linear-gradient(to right, #141e30, #243b55) !important;
 }
 
 @media (min-width: 990px) {
     nav {
-        background-color: #071729 !important;
+        background: linear-gradient(to right, #141e30, #243b55) !important;
         padding-right: 90px !important;
     }
 }
@@ -66,7 +66,7 @@ nav #languageSelectorMobile {
     height: 100px;
     position: absolute;
     top: -8px;
-    left: 90px;
+    left: 150px;
 }
 
 .logo-inamarket {
@@ -74,7 +74,7 @@ nav #languageSelectorMobile {
     height: 50px;
     position: absolute;
     top: 18px;
-    left: 30px;
+    left: 100px;
 }
 
 h1,
@@ -90,11 +90,12 @@ h6 {
 
 .title {
     font-family: PlusJakartaBold, sans-serif;
+    font-size: 40px;
 }
 
 .sub-title {
-    font-size: 60px;
-    color: white;
+    font-size: 50px;
+    color: #F5DF4D;
     font-feature-settings: 'ss02' on, 'ss01' on, 'ss03' on;
 }
 
@@ -110,8 +111,9 @@ h6 {
 }
 
 .hero-content {
-    margin-top: 200px;
+    margin-top: 60px;
     font-size: 22px;
+    color: #fff;
 }
 
 footer {
@@ -149,13 +151,67 @@ footer a:hover {
 
 .section-hero {
     color: var(--text-secondary);
-    background-image: url(https://garudahacks.com/img/hero.svg);
+    background: linear-gradient(to right, #141e30, #243b55);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 125px;
     padding-bottom: 205px;
     line-height: 1.6;
     font-weight: 500;
+}
+
+.row-left {
+    width: 55%;
+}
+
+.row-right {
+    width: 45%;
+}
+
+.row-left {
+    margin-right: 30px;
+}
+
+.img-group {
+    width: 455px;
+    height: 350px;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+@media (max-width: 991px) {
+    .section-hero {
+        padding-bottom: 150px;
+    }
+    .con-mobile {
+        flex-direction: column;
+    }
+    .row-left,
+    .row-right {
+        width: 100%;
+    }
+    .img-group {
+        width: 345px;
+        height: 300px;
+        margin-top: 0;
+    }
+    .row-right {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .row-left .title {
+        font-size: 25px;
+    }
+    .hero-content {
+        margin-top: 30px;
+    }
+    .section-hero .btn-register {
+        width: 100%;
+    }
+    .col-img {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media screen and (min-width: 317px) {
@@ -188,6 +244,7 @@ footer a:hover {
 .section-hero strong {
     font-weight: 700;
     font-size: 22px;
+    color: #fff;
 }
 
 .section-hero h1 {
@@ -209,6 +266,7 @@ footer a:hover {
     font-size: 18px;
     font-weight: 500;
     padding-bottom: 0px;
+    color: #fff;
 }
 
 .section-hero .btn {
@@ -287,7 +345,7 @@ footer a:hover {
 }
 
 .section-what {
-    background-color: #071729;
+    background: linear-gradient(to right, #141e30, #243b55);
 }
 
 .section-what .container h1 {
@@ -342,7 +400,7 @@ footer a:hover {
     font-variant-ligatures: no-historical-ligatures;
     font-feature-settings: "ss01", "ss02", "ss03";
     font-size: 40px;
-    color: var(--laut-blue);
+    color: #fff;
     line-height: 1;
 }
 
@@ -358,7 +416,7 @@ footer a:hover {
 
 .expert {
     padding-top: 30px;
-    background-color: var(--kunyit-yellow);
+    background: linear-gradient(to right, #141e30, #243b55);
 }
 
 .expert .item {
@@ -380,12 +438,14 @@ footer a:hover {
     font-size: 20px;
     max-width: 700px;
     margin-bottom: 25px;
+    color: #fff;
 }
 
 .expert .item-desc2 {
     font-family: Montserrat;
     font-weight: 500;
     font-size: 20px;
+    color: #fff;
     max-width: 700px;
     margin-bottom: 25px;
 }
@@ -402,7 +462,7 @@ footer a:hover {
 
 .mountain-bg {
     text-align: center;
-    margin-top: -200px;
+    margin-top: 60px;
     width: 100vw;
 }
 
@@ -537,7 +597,7 @@ footer a:hover {
     font-variant-ligatures: no-historical-ligatures;
     font-feature-settings: "ss01", "ss02", "ss03";
     font-size: 48px;
-    color: var(--laut-blue);
+    color: #fff;
     margin-top: 30px;
 }
 
@@ -556,6 +616,7 @@ footer a:hover {
 .section-what .judge-box {
     text-align: center;
     border: solid 3px #110000;
+    background: #d50000;
     margin-top: 30px;
     min-height: 225px;
     min-width: 250px;
@@ -589,13 +650,13 @@ footer a:hover {
     font-family: Montserrat;
     font-weight: bold;
     font-size: 20px;
-    color: var(--text-dark);
+    color: #fff;
 }
 
 .section-what .judge-box .judge-desc {
     font-size: 17px;
     line-height: 1.6;
-    color: #071729;
+    color: #eee;
     font-family: Montserrat;
     font-weight: 500;
 }
@@ -608,7 +669,7 @@ footer a:hover {
     font-size: 24px;
     line-height: 29px;
     text-align: center;
-    color: #071729;
+    color: #fff;
 }
 
 .section-what .mlh-coc {
@@ -623,6 +684,8 @@ footer a:hover {
 
 .section-what .mlh-coc-text-container {
     max-width: 773px;
+    color: #fff;
+    margin-bottom: 20px;
 }
 
 .section-what .btn-coc {
@@ -638,7 +701,7 @@ footer a:hover {
 
 .section-track {
     padding-bottom: 120px;
-    background-color: #071729;
+    background: linear-gradient(to right, #141e30, #243b55);
 }
 
 .section-track h1 {
@@ -740,12 +803,13 @@ footer a:hover {
 }
 
 .section-prize .item {
-    border: 4.19415px solid #071729;
+    border: 4.19415px solid #000;
     padding: 32px;
     border-radius: 18.1747px;
     transition: 0.2s ease;
     height: 100%;
     max-width: 320px;
+    background: #d50000;
 }
 
 .section-prize .item:hover {
@@ -754,7 +818,7 @@ footer a:hover {
 }
 
 .section-prize .item .item-title {
-    color: var(--text-dark);
+    color: #fff;
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
     font-size: 25px;
@@ -766,12 +830,13 @@ footer a:hover {
     font-style: normal;
     font-weight: 500;
     margin-bottom: 10px;
+    color: #fff;
 }
 
 .section-prize .prize-many {
     margin-top: 40px;
     text-align: center;
-    color: #071729;
+    color: #fff;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -782,7 +847,7 @@ footer a:hover {
 }
 
 .section-faq {
-    background-color: #071729;
+    background: linear-gradient(to right, #141e30, #243b55);
     color: var(--text-secondary);
     padding-top: 70px;
     padding-bottom: 30px;
@@ -935,9 +1000,8 @@ footer a:hover {
 }
 
 footer {
-    padding-top: 0px;
-    padding-bottom: 120px;
-    background-color: #071729;
+    padding: 60px 0;
+    background: linear-gradient(to right, #141e30, #243b55);
     color: #FFFCF3;
 }
 
@@ -968,7 +1032,8 @@ footer .powered-img {
 }
 
 .section-bydp {
-    background-color: #F5DF4D;
+    background: linear-gradient(to right, #141e30, #243b55);
+    margin-bottom: -100px;
 }
 
 .section-bydp .item .item-title {
@@ -980,14 +1045,14 @@ footer .powered-img {
     text-align: left;
     /* padding-top: 13%; */
     padding-left: 1em;
-    color: #071729;
+    color: #fff;
     font-family: PlusJakartaBold;
     font-variant-ligatures: no-historical-ligatures;
     font-feature-settings: "ss01", "ss02", "ss03";
 }
 
 .section-bydp .item .row .col-md-9 .item-title {
-    margin-top: 100px !important;
+    margin-top: 50px !important;
 }
 
 @media(max-width: 570px) {
@@ -1003,7 +1068,7 @@ footer .powered-img {
         padding-left: 0px !important;
     }
     .section-bydp .item .row .col-xs-12 {
-        margin-top: 150px !important;
+        margin-top: 0px !important;
         margin-right: 0px !important;
         margin-left: 0px !important;
         padding-left: 0px !important;
@@ -1021,7 +1086,8 @@ footer .powered-img {
     text-align: left;
     padding-top: 3%;
     padding-left: 2.3em;
-    color: #071729;
+    color: #fff;
+    margin-bottom: 20px;
 }
 
 .section-bydp {
@@ -1041,7 +1107,6 @@ footer .powered-img {
 }
 
 .section-bydp .item {
-    margin-bottom: -2em;
     padding: 30px;
     height: 100%;
     color: #071729;
@@ -1054,7 +1119,7 @@ footer .powered-img {
 .section-bydp .tools-container {
     margin-top: 25px;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     flex-wrap: wrap;
     margin-right: 0%;
     margin-left: 2%;
@@ -1132,8 +1197,8 @@ footer .powered-img {
 }
 
 .section-bydp .tool-box {
-    border: solid 4px #071729;
-    margin-top: 30px;
+    border: solid 3px #000;
+    margin: 30px;
     min-height: 250px;
     min-width: 275px;
     max-height: 250px;
@@ -1142,8 +1207,7 @@ footer .powered-img {
     border-radius: 8px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07);
     transition: 0.2s ease;
-    background-color: #F5DF4D;
-    margin-right: 5%;
+    background-color: #d50000;
 }
 
 .section-bydp .tool-box:hover {
@@ -1167,7 +1231,7 @@ footer .powered-img {
     font-weight: 700;
     font-family: Montserrat;
     font-size: 25px;
-    color: var(--text-dark);
+    color: #fff;
     padding-top: 1.5em;
 }
 
@@ -1175,7 +1239,7 @@ footer .powered-img {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.6;
-    color: #071729;
+    color: #fff;
     padding-top: 0.5em;
     font-family: Montserrat;
 }
