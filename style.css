@@ -270,7 +270,7 @@ footer a:hover {
 }
 
 .section-hero .btn {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .section-hero .hero-img {
@@ -286,7 +286,7 @@ footer a:hover {
     border: solid 1px var(--grey);
     color: white;
     background-color: #071729;
-    ;
+    width: 250px;
     padding: 15px 25px;
 }
 
