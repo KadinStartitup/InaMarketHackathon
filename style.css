@@ -181,10 +181,10 @@ footer a:hover {
 
 @media (max-width: 991px) {
     .section-hero {
-        padding-bottom: 150px;
+        padding-bottom: 90px;
     }
     .con-mobile {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .row-left,
     .row-right {
@@ -192,8 +192,8 @@ footer a:hover {
     }
     .img-group {
         width: 345px;
-        height: 300px;
-        margin-top: 0;
+        height: 270px;
+        margin-bottom: 35px;
     }
     .row-right {
         margin-left: 0px;
@@ -216,7 +216,7 @@ footer a:hover {
 
 @media screen and (min-width: 317px) {
     .section-hero {
-        padding-top: 205px;
+        padding-top: 50px;
     }
 }
 
@@ -286,7 +286,6 @@ footer a:hover {
     border: solid 1px var(--grey);
     color: white;
     background-color: #071729;
-    width: 250px;
     padding: 15px 25px;
 }
 
