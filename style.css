@@ -704,14 +704,14 @@ footer a:hover {
 }
 
 .section-track h1 {
-    color: #F5DF4D;
+    color: #fff;
     font-family: PlusJakartaBold;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
     line-height: 60px;
     font-feature-settings: 'ss02' on;
-    margin-top: 0px;
+    margin-bottom: 30px;
 }
 
 .section-track .col-12 {
@@ -728,7 +728,7 @@ footer a:hover {
     font-weight: 400;
     font-size: 22px;
     line-height: 30px;
-    color: #F5DF4D;
+    color: #fff;
 }
 
 .section-track .item {
@@ -853,7 +853,7 @@ footer a:hover {
 }
 
 .section-faq h1 {
-    color: #F5DF4D;
+    color: #fff;
     font-family: PlusJakartaBold;
     font-style: normal;
     font-weight: bold;
@@ -864,7 +864,7 @@ footer a:hover {
 }
 
 .section-faq h3 {
-    color: #F5DF4D;
+    color: #fff;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -1089,10 +1089,11 @@ footer .powered-img {
     margin-bottom: 20px;
 }
 
-.section-bydp {
-    /* padding-top: 120px; */
-    /* padding-bottom: 120px; */
-}
+
+/* .section-bydp {
+    padding-top: 120px;
+    padding-bottom: 120px;
+} */
 
 .section-bydp .container-fluid {
     padding-top: 10px;
