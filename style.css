@@ -1,15 +1,3 @@
-:root {
-    --kunyit-yellow: #F5DF4D;
-    --aspal-grey: #939597;
-    --laut-blue: #071729;
-    --langit-blue: #A8C8F0;
-    --awan-white: #FFF3DD;
-    --merdeka-red: #FF164E;
-    --champagne: #FBF1B2;
-    --light-grey: #F0F0F0;
-    --light-blue: #DDE9F8;
-}
-
 @font-face {
     font-family: PlusJakarta;
     src: url(../font/PlusJakartaSans-Regular.ttf) format("truetype");
@@ -155,7 +143,7 @@ footer a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 125px;
-    padding-bottom: 205px;
+    padding-bottom: 150px;
     line-height: 1.6;
     font-weight: 500;
 }
@@ -173,10 +161,14 @@ footer a:hover {
 }
 
 .img-group {
-    width: 455px;
-    height: 350px;
-    margin-top: 60px;
+    width: 100%;
+    height: auto;
+    margin-top: -10px;
     border-radius: 10px;
+}
+
+.btn-view {
+    padding-left: 15px;
 }
 
 @media (max-width: 991px) {
@@ -184,16 +176,22 @@ footer a:hover {
         padding-bottom: 90px;
     }
     .con-mobile {
-        flex-direction: column-reverse;
+        flex-direction: column;
+    }
+    .collapse.show {
+        padding-top: 10px;
     }
     .row-left,
     .row-right {
         width: 100%;
     }
     .img-group {
-        width: 345px;
-        height: 270px;
-        margin-bottom: 35px;
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .btn-view {
+        padding: 0 15px;
     }
     .row-right {
         margin-left: 0px;
@@ -212,11 +210,14 @@ footer a:hover {
         display: flex;
         justify-content: center;
     }
+    .section-track .item {
+        min-width: 90%;
+    }
 }
 
 @media screen and (min-width: 317px) {
     .section-hero {
-        padding-top: 50px;
+        padding-top: 130px;
     }
 }
 
@@ -413,8 +414,9 @@ footer a:hover {
     max-width: 100%;
 }
 
+
 .expert {
-    padding-top: 30px;
+    padding-top: 60px; /* default value : 30px */
     background: linear-gradient(to right, #141e30, #243b55);
 }
 
@@ -650,6 +652,7 @@ footer a:hover {
     font-weight: bold;
     font-size: 20px;
     color: #fff;
+    margin-top: 8px;
 }
 
 .section-what .judge-box .judge-desc {
@@ -698,6 +701,10 @@ footer a:hover {
     width: 420px;
 }
 
+.section-what .btn-coc:hover {
+    color: #d50000;
+}
+
 .section-track {
     padding-bottom: 120px;
     background: linear-gradient(to right, #141e30, #243b55);
@@ -736,7 +743,7 @@ footer a:hover {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
-    max-width: 375px;
+    width: 80%;
     background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.04), 0 4px 8px 0 rgba(0, 0, 0, 0.04), 0 16px 24px 0 rgba(0, 0, 0, 0.04), 0 24px 32px 0 rgba(0, 0, 0, 0.04);
@@ -769,6 +776,10 @@ footer a:hover {
     font-size: 16px;
     line-height: 23px;
     color: #071729;
+}
+.section-track .item-body ul li {
+    line-height: 2;
+    list-style: circle;
 }
 
 .section-prize {
@@ -999,7 +1010,7 @@ footer a:hover {
 }
 
 footer {
-    padding: 60px 0;
+    padding-top: 60px;
     background: linear-gradient(to right, #141e30, #243b55);
     color: #FFFCF3;
 }
